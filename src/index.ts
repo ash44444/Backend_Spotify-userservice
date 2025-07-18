@@ -27,7 +27,7 @@ app.use(express.json());
 app.use("/api/v1", userRoutes);
 
 app.get("/", (req, res) => {
-  res.send("Server is working");
+  res.send("User Service is working");
 });
 
 const port = process.env.PORT || 5000;
